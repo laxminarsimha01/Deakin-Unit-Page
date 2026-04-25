@@ -26,7 +26,33 @@ tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
-div {
+.header-bar {
   background-color: darkcyan;
-  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
 }
