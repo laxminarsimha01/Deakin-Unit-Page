@@ -90,3 +90,36 @@ nav a.active {
   font-weight: bold;
   border-bottom: 2px solid #fff;
 }
+
+
+.hurdle-section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background-color: #fff8e1;
+  border-left: 4px solid #f39c12;
+  border-radius: 4px;
+}
+
+.hurdle-section h3 {
+  color: #b9770e;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hurdle-icon {
+  font-size: 22px;
+}
+
+.hurdle-section p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+  margin: 0;
+}
+
