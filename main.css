@@ -25,40 +25,6 @@ th, td {
 tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
-<<<<<<< HEAD
-
-.header-bar {
-  background-color: darkcyan;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-
-nav {
-  display: flex;
-  gap: 20px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-family: Arial;
-  font-size: 16px;
-  padding: 8px 12px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav a.active {
-  font-weight: bold;
-  border-bottom: 2px solid #fff;
-}
-=======
->>>>>>> add-unit-content
 
 .header-bar {
   background-color: darkcyan;
@@ -91,6 +57,29 @@ nav a.active {
   border-bottom: 2px solid #fff;
 }
 
+.content-section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background-color: #fafafa;
+  border-left: 4px solid darkcyan;
+  border-radius: 4px;
+}
+
+.content-section h3 {
+  color: darkcyan;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.content-section p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+  margin: 0;
+}
 
 .hurdle-section {
   max-width: 900px;
@@ -123,3 +112,25 @@ nav a.active {
   margin: 0;
 }
 
+.cta-section {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.fee-link {
+  display: inline-block;
+  background-color: darkcyan;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.fee-link:hover {
+  background-color: #006d6d;
+  transform: translateY(-2px);
+}
